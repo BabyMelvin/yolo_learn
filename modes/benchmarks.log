@@ -1,0 +1,20 @@
+
+Benchmarks complete for yolo11n.pt on coco8.yaml at imgsz=640 (14.86s)
+Benchmarks legend:  - ✅ Success  - ❎ Export passed but validation failed  - ❌️ Export failed
+                   Format Status❔  Size (MB) metrics/mAP50-95(B) Inference time (ms/im)    FPS
+0                 PyTorch       ✅        5.4                0.61                  81.19  12.32
+1             TorchScript       ✅       10.5              0.6082                 146.07   6.85
+2                    ONNX       ✅       10.2              0.6082                  70.47  14.19
+3                OpenVINO       ❌        0.0                   -                      -      -
+4                TensorRT       ❌        0.0                   -                      -      -
+5                  CoreML       ❌        0.0                   -                      -      -
+6   TensorFlow SavedModel       ❌        0.0                   -                      -      -
+7     TensorFlow GraphDef       ❌        0.0                   -                      -      -
+8         TensorFlow Lite       ❌        0.0                   -                      -      -
+9     TensorFlow Edge TPU       ❌        0.0                   -                      -      -
+10          TensorFlow.js       ❌        0.0                   -                      -      -
+11           PaddlePaddle       ❌        0.0                   -                      -      -
+12                    MNN       ❌        0.0                   -                      -      -
+13                   NCNN       ❌        0.0                   -                      -      -
+14                    IMX       ❌        0.0                   -                      -      -
+15                   RKNN       ❌        0.0                   -                      -      -
